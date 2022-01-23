@@ -1,3 +1,4 @@
+//
 var c:string, h:number, d:Date;
 d = new Date();
 h = d.getHours();
@@ -8,7 +9,7 @@ if(h < 12){
     c="lightyellow";
 }
 document.body.style.backgroundColor=c;
-
+//
 var c,t:string;
 var h:number, d:Date;
 
@@ -23,3 +24,14 @@ if(h<12){
 }
 document.title=t;
 document.body.style.backgroundColor=c;
+
+//
+var c:string;
+var h:number,d:Date;
+d = new Date();
+h = d.getHours();
+c="lightyellow";
+
+if(h>12) c="skyblue";
+document.body.style.backgroundColor=c;
+
