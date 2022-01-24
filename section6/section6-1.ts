@@ -8,3 +8,4 @@ while(dice != 6){
 }
 alert(count);
 window.close();
+
